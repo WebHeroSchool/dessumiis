@@ -127,6 +127,10 @@ body {
     display: none;
   }
 
+  .mobile-menu {
+    display:flex;
+  }
+
   .menu__burger {
     padding: 32px 24px 0 0;
     background: center right no-repeat url(img/burger.svg);
