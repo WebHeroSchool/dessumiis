@@ -93,18 +93,18 @@ body {
 }
 
 .main__title {
-  margin-bottom: 0 0 40px 0;
-  font: 50px/66px, pt_serifbold, arial, helvetica, sans-serif;
+  margin-bottom: 40px;
+  font: 50px/66px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
-  margin-bottom: 0 0 41px 0;
+  margin-bottom: 41px;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 14px/16px, Roboto, arial, helvetica, sans-serif;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 14px 16px;
