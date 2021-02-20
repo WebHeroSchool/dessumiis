@@ -111,13 +111,15 @@ body {
   padding: 18px 21px;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity .5s;
 }
 
 .main__button:hover {
-  opacity .5;
+  background: #0c48b0;
 }
 
+.main__button:hover:after {
+  width 0.5s;
+}
 .main__title-text__highlight {
   background: #ECF3FF;
 }
@@ -161,6 +163,7 @@ body {
   .main__button {
    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
+
 
   .logo__text {
     display: none;
