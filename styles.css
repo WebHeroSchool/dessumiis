@@ -23,6 +23,7 @@ body {
 .menu {
   align-items: center;
   margin-left: 956px;
+  padding-top: 47px;
 }
 
 .menu__item {
@@ -64,7 +65,7 @@ body {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .logo__circle {
@@ -111,13 +112,21 @@ body {
   padding: 18px 21px;
   text-decoration: none;
   border-radius: 4px;
+  transition: all 0.3s;
 }
 
 .main__button:hover {
   background: #0c48b0;
+  letter-spacing: 2px;
+
 }
 
-.main__button:hover:after {
+.main__button:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.main__button:hover::after {
   width 0.5s;
 }
 .main__title-text__highlight {
